@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>CV Builder</h1>
+    <div class="button-group">
+      <button class="btn" onclick="showForm('job')">➕ Add Job</button>
+      <button class="btn" onclick="showForm('education')">➕ Add Education</button>
+      <button class="btn" onclick="showForm('language')">➕ Add Language</button>
+      <button class="btn" onclick="showForm('skills')">➕ Add Skills</button>
+    </div>
+
+    <div id="form-container" class="form-container">
+      <p class="placeholder">Click a button above to add details</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
